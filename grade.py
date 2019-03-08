@@ -65,4 +65,4 @@ with open(ofname, 'wb') as csvfile:
         if name != solution_key.lower():
             writer.writerow(Scores[key])
 
-print "File created:",ofname
+print("File created:",ofname)
